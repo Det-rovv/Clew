@@ -1,5 +1,4 @@
 # Clew
-___
 ![GitHub License](https://img.shields.io/github/license/Det-rovv/Clew?style=for-the-badge&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Det-rovv/Clew?style=for-the-badge)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/Det-rovv/Clew?style=for-the-badge&color=blue)
@@ -19,7 +18,6 @@ A web service designed to simplify and automate downloading modpacks. It provide
 *   [Usage](#usage)
 *   [Roadmap](#roadmap)
 ## Getting started
-___
 ### Setup
 #### Dotnet CLI
 Requirements:
@@ -149,7 +147,6 @@ Settings explanation:
 |ConcurrencySettings.ItemsPerThread.ProjectDataProcessing| The number of projects for which one thread is allocated in the pipeline strategy for resolving project lists.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |ContentSourceNamingsSettings.{TranslatableNameCategory}.{CommonName}.{ContentSourceName}.{SpecificName}| This application uses a system for translating specific names for various content sources into a unified one that the client will use in communication with the Clew API. For example, in the Modrinth API, the relationship between projects denoting the required dependency is called "required", and in the CurseForge API: "3". To describe how these names should be translated, there is this configuration section<br>So:<br>**"TranslatableNameCategory"** is a category of translatable names, for example, **"Platforms"** are platforms for which project versions are released, for example, "fabric" for mods, and "iris" for shaders<br>**"CommonName"** is the name that the user will specify when accessing the Clew API<br>**"ContentSourceName"** is the name of the content source for which this translation is intended<br>Important: it must match this configuration value for this source "{Source}Settings.ApiName"<br>**"SpecificName"** is a specific name for any source, for example, in the example above it is "3" for CurseForge |
 ## Usage
-___
 Currently the service has only one endpoint: `/projects/resolve/list`. It handles POST requests containing an object of the following format in the body:
 ```json
 {
