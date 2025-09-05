@@ -4,5 +4,6 @@ public enum ProjectRelationType
 {
     RequiredDependency,
     OptionalDependency,
+    Embedded,
     Incompatible
 }
