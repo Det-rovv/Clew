@@ -278,3 +278,5 @@ This is a WIP project, here are a few things I would like to see implemented
 - Other sources (including Guthub)
 - Filtering releases by regular expressions
 - Deploy service to a public hosting environment
+- Add CLI version
+- Port to .NET 10
