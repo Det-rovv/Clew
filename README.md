@@ -21,8 +21,8 @@ A web service designed to simplify and automate downloading modpacks. It provide
 ### Setup
 #### Dotnet CLI
 Requirements:
-- .NET 9 SDK
-1. Check your dotnet version, it should be `9.*.*`. Install it if you don't have it.
+- .NET 10 SDK
+1. Check your dotnet version, it should be `10.*.*`. Install it if you don't have it.
 ```shell
 dotnet --version
 ```
@@ -279,4 +279,3 @@ This is a WIP project, here are a few things I would like to see implemented
 - Filtering releases by regular expressions
 - Deploy service to a public hosting environment
 - Add CLI version
-- Port to .NET 10
